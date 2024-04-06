@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("img/weather-hot.jpg");
+  font-family: "Poppins", sans-serif;;
+}
+
+#app .box {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3), -5px -5px 20px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  display: inline-block;
+}
+
+#app {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  margin-bottom: 100px;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#app .form .keyword {
+  padding: 5px 10px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+  width: 300px;
+}
+
+#app .form .btn-search {
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(132, 137, 138);
+  color: #eee;
+  border-radius: 7px;
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+#app .form .btn-search:hover {
+  opacity: 0.8;
+}
+
+#app .form .btn-search:focus {
+  outline: rgb(0, 0, 0) solid 2px;
+  outline-offset: 2px;
+}
+
+#container {
+  margin-top: 500px;
+  height: 80vh;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  font-family: "Poppins", sans-serif;;
+}
+
+.navbar-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.navbar-brand {
+  padding-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5em;
+}
+
+@media (max-width: 600px) {
+  .navbar-container {
+    width: 100%;
+  }
+}
+.lorem-text p {
+  font-size: 1.25em;
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
